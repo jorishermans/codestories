@@ -14,12 +14,13 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { MonacoEditorModule } from 'ngx-monaco-editor-v2';
 import { WorkItemNpmInstallComponent } from './components/steps/options/npm/workitem-npm-install.component';
 import { TerminalComponent } from './components/terminal/terminal.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [WorkItemCodeComponent, ToolbarComponent,
     StructureComponent, StepsRendererComponent,
     WorkItemCodeComponent, WorkItemTextComponent, WorkItemMarkdownComponent,
-    WorkItemNpmInstallComponent, CreateComponent, ProjectsComponent, TerminalComponent
+    WorkItemNpmInstallComponent, CreateComponent, HomeComponent, ProjectsComponent, TerminalComponent
 ],
   imports: [
     CommonModule, FormsModule, FontAwesomeModule, MonacoEditorModule
