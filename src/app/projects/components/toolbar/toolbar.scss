@@ -1,0 +1,14 @@
+.twm-toolbar {
+    display: flex;
+    flex-direction: row;
+    margin: 7px 0;
+
+    .twm-toolbar-item {
+        padding: 5px;
+        border: 1px solid;
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}

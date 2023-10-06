@@ -1,0 +1,14 @@
+.readonly {
+    .editor-container {
+        // height: calc(50vh - 100px);
+    }
+}
+.twm-workitem-code.small {
+    font-size: 11px;
+}
+.twm-executed {
+    max-height: 100px;
+    overflow: hidden;
+    overflow-y: scroll;
+    font-size: 11px;
+}

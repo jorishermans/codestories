@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('node_modules/shut/dist/css/sh.min.css');
+@import url('node_modules/xterm/css/xterm.css');
+
+@font-face {
+    font-family: 'Arvo Regular';
+    src: url('./assets/fonts/Arvo-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { 
+    background-color: white;
+    font-family: 'Arvo Regular', sans-serif;
+}
+
+a {
+    color: #d65947;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color: hsla(0,0%,0%,0.8);
+}

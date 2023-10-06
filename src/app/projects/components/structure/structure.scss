@@ -1,0 +1,25 @@
+.add { 
+    border: dashed 2px black;
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 15px;
+    span { 
+        background-color: black;
+        color: white;
+        padding: 3px;
+        margin: 0px 5px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+.twm-steps {
+    margin: 5px 0px;
+    padding: 10px 0px;
+    div {
+        padding: 10px 0px;
+    }
+    .active {
+        border-left: 4px solid #333;
+        border-radius: 5px;
+    }
+}

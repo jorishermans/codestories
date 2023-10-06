@@ -1,0 +1,27 @@
+.twm-steps-renderer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    .active {
+        font-weight: bold;
+    }
+    div:first-child {
+        margin-right: 10px;
+    }
+    :nth-of-type(2) {
+        width: calc(100% - 50px);
+    }
+    .twm-indicator {
+        margin-left: 5px;
+    }
+    span.type { 
+        background-color: gray;
+        color: white;
+        padding: 3px;
+        margin: 5px;
+        border-radius: 5px;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+}
